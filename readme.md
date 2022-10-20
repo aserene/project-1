@@ -10,7 +10,7 @@ Description of project here
 -thing 5
 ## Wireframe
 ---
-![some text](url of picture here) 
+![Kirby](https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_2.625/c_scale,w_400/ncom/en_US/merchandising/Character%20Portals/1600x1600_NCOM_Home_Characters_Kirby) 
 ### Daily Plan
 ---
 | Day | Goal |
