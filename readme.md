@@ -1,6 +1,6 @@
-# The Name of My App
+# Much Ado About Trivia
 ---
-Description of project here
+A competitive, two-player trivia game app 
 ## Technologies Used
 ---
 -HTML 5
@@ -8,18 +8,18 @@ Description of project here
 -JavaScript
 -jQuery
 -AJAX
+-Contentful
 ## Wireframe
 ---
-make wireframe for desktop and mobile
-
-![Kirby](https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_2.625/c_scale,w_400/ncom/en_US/merchandising/Character%20Portals/1600x1600_NCOM_Home_Characters_Kirby) 
+![Trivia](https://i.imgur.com/h99cGnL.jpg) 
 ### Daily Plan
 ---
 | Day | Goal |
 |-----|------|
-|  1  | Choose api  |
-|  2  | Render data |
-|  3  | Create Form |
+|  1  | Create quest model w/ 20 quest |
+|  2  | Create basic game functionality  |
+|  3  | Style app |
+|  4  | Add responsive layout |
 
 ### Link to Project
 ---
