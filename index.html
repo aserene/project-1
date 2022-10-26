@@ -13,13 +13,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script>
-      const URL  = " "
-      $.ajax(URL)
-      .then((data) => {
-        console.log(data)
-      })
-    </script>
-    <h1>Much Ado About Trivia</h1>
+   <h1>What on Earth?</h1>
+    <div class="score">Scoreboard Here
+      <div class="player1">
+        <h3>Player 1</h3>
+        <h4>0</h4>
+      </div>
+      <div class="player2">
+        <h3>Player 2</h3>
+        <h4>0</h4>
+      </div>
+    </div>
+    <div class="question">Question</div>
+    <div class="answer">Correct Asnwer</div>
+     
+    <div class="ch">Choices Here
+      <ul>
+        <li id="a">Answer A</li>
+        <li id="b">Answer B</li>
+        <li id="c">Answer C</li>
+        <li id="d">Answer D</li>
+      </ul>
+    </div>
 </body>
 </html>
