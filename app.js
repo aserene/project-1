@@ -6,7 +6,7 @@
 const state = {
     player1: 0,
     player2: 0,
-    currentQ: {},
+    // currentQ: {},
     which: true
 }
 let questions = []
