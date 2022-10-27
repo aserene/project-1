@@ -1,6 +1,6 @@
-# Much Ado About Trivia
+# What on Earth?
 ---
-A competitive, two-player trivia game app 
+A competitive, two-player trivia game app based on Earth Science and Astronomy 
 ## Technologies Used
 ---
 -HTML 5
