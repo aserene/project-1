@@ -4,8 +4,8 @@
 
 //spaces/{space_id}/environments/{environment_id}/entries?access_token={access_token}&content_type={content_type}
 const state = {
-    player1: 0,
-    player2: 0,
+    player1: 1,
+    player2: 1,
     // currentQ: {},
     which: true
 }
@@ -62,6 +62,9 @@ const setBoard = (q) => {
     $(".reset").off()
     $(".reset").on("click", (event) => {
         chooseAnswer(event, randomQuestion)
+        $p1score.text(state.player1=0)
+        $p2score.text(state.player2=0)
+        console.log(state.player1, state.player2, "<< player1, player2")
     })
 }
 const URL  = "https://cdn.contentful.com/spaces/j5z000zxhdfh/environments/master/entries?access_token=lpW7spZ1knrCfM4NsWxxPhXKG2oU8FdGctTx4T46yUE&content_type=triviaQ"
