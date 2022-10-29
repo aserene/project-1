@@ -31,6 +31,9 @@ const chooseAnswer = (event, question) => {
             state.which = !state.which
         }
         setBoard(questions)
+    } else if (event.target.innerText === "Reset Game"){
+        setBoard(questions)
+        state.which = !state.which
     } else {
         console.log("incorrect")
         setBoard(questions)
@@ -53,6 +56,11 @@ const setBoard = (q) => {
 
     $("li").off()
     $("li").on("click", (event) => {
+        chooseAnswer(event, randomQuestion)
+    })
+
+    $(".reset").off()
+    $(".reset").on("click", (event) => {
         chooseAnswer(event, randomQuestion)
     })
 }

@@ -105,15 +105,34 @@ header h3 {
     border-bottom: 3px solid black;
 }
 .reset {
+    margin: auto;
     margin-top: 20px;
     background-color: white;
     width: 300px;
     justify-content: center;
     align-items: center;
-
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 900;
+}
+.reset:hover {
+    background-color: rgb(135, 135, 135);
+    transition-delay: 60ms;
 }
 @media screen and (max-width:1040px) {
     .choices {
         height: 500px;
+    }
+}
+@media screen and (min-width: 1472px) {
+    .player1, .player2 {
+        width: 206px;
+    }
+    .question {
+        width: 727px;
+    }
+    .choices {
+        width: 727px;
     }
 }
