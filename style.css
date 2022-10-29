@@ -3,12 +3,17 @@ body {
     background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2017/11/09/1152635/02ad71fa2e0027935a25cff5f6a76b45-700.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Overlock', cursive;
 }
 header {
   background-color: rgb(73, 207, 255);  
   color: black;
   border: 3px solid black;
   border-radius: 25px;
+}
+h1 {
+    font-family: 'Bonbon', cursive;
 }
 .question {
     width: 50%;
@@ -42,6 +47,7 @@ header {
     display: flex;
     height: 100%;
     width: 100%;
+    padding-right: 40px;
     flex-wrap: wrap;
     justify-content: space-around;
     list-style: none;
@@ -51,13 +57,18 @@ header {
     width: 200px;
     height: 80px;
     background-color: rgb(215, 140, 0);
-    padding-top: 10px;
+    padding-top: 30px;
     text-align: center;
     margin: 5px;
     font-weight: bolder;
     border-radius: 25px;
     border: 3px solid rgb(159, 93, 0)
 
+}
+.choices ul li:hover {
+    background-color: white;
+    color:rgb(215, 140, 0);
+    transition-delay: 60ms;
 }
 .score {
     display: flex;
@@ -77,6 +88,7 @@ header {
 }
 header h3 {
     font-style: italic;
+
 }
 .player1 {
     border-top-left-radius: 25px;
@@ -91,4 +103,17 @@ header h3 {
     border-top: 3px solid black;
     border-right: 3px solid black;
     border-bottom: 3px solid black;
+}
+.reset {
+    margin-top: 20px;
+    background-color: white;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+
+}
+@media screen and (max-width:1040px) {
+    .choices {
+        height: 500px;
+    }
 }
