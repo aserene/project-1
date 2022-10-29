@@ -23,4 +23,4 @@ A competitive, two-player trivia game app based on Earth Science and Astronomy
 
 ### Link to Project
 ---
-[My Project's Live Page](https://aserene.github.io/project-1/)
+[My Project's Live Page](https://project-1-aserene.vercel.app/)
